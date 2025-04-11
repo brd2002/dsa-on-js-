@@ -7,7 +7,7 @@ function swap (arr , i , j){
 function ansArray(arr) {
   let first = 0;
   let second = arr.length - 1;
-  while(first <  second){
+  while(first <= second){
     // till the time i and js have not passed each other
     if (arr[first] == 1){
         swap(arr , first , second) ;
